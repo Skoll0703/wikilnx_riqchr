@@ -39,3 +39,26 @@
 ** Este comando lo que hace es mostrar la configuración de red de nuestro servidor, incluyendo las direcciones IP asignadas a cada interfaz de red.**
 
 ![Interfaces de red](img/conectar%20mi%20pc.png)
+
+** Los siguientes comandos a ejecutar son:**
+
+- sudo ufw allow OpenSSH
+
+** Permite las conexiones SSH a través del firewall (si ejecutas el comando "sudo ufw enable" antes de este te quedaras sin acceso SSH)**
+
+- sudo ufw allow 80/tcp
+
+** Abre el puerto 80 (HTTP) en el firewall para permitir el tráfico web entrante. Por ejemplo, sin instalas Apache o Nginx, este comando permite que otras persona puedan acceder a tu sitio web desde un navegador.**
+
+- sudo ufw enable
+
+** Habilita el firewall UFW (Uncomplicated Firewall) y aplica las reglas configuradas. Esto es importante para proteger tu servidor de accesos no autorizados.**
+
+- sudo ufw status verbose
+
+** Este comando muestra el estado actual del firewall UFW, incluyendo las reglas activas y el tráfico permitido o bloqueado. Es útil para verificar que las configuraciones de seguridad se hayan aplicado correctamente.**
+
+![Estado Firewall](img/conectar%20mi%20pc%202.png)
+
+
+![Estado Firewall](img/conectar%20mi%20pc%203.png)
