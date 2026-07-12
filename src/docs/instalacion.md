@@ -11,4 +11,6 @@
 ** Despues que la instalacion termine, nos pedira que reiniciemos la maquina virtual, y despues de reiniciarla nos pedira que iniciemos sesion con el usuario y contraseña que configuramos anteriormente.**
 
 ** Al iniciar sesion deberia verse algo como esto:**
+
+
 ![Inicio de sesion](img/Instalacion%20ya%20completa.png)
