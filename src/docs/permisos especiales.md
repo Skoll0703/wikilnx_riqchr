@@ -61,25 +61,25 @@
 
 - Los últimos tres caracteres representan los permisos de otros usuarios, nuevamente con el mismo significado que los del propietario.
 
-**Chmod numerico**
+### Chmod numerico
 
 - El comando "chmod" también puede utilizarse con notación numérica para establecer permisos. Cada permiso se representa con un número: lectura (r) = 4, escritura (w) = 2 y ejecución (x) = 1. La suma de estos números determina los permisos para el propietario, grupo y otros usuarios.
 
     Ejemplo: "chmod 755 archivo.txt" establece permisos de lectura, escritura y ejecución para el propietario (7), y permisos de lectura y ejecución para el grupo y otros usuarios (5).
 
-**Chmod simbólico**
+### Chmod simbólico
 
 - El comando "chmod" también puede utilizarse con notación simbólica para establecer permisos. En este caso, se utilizan letras para representar los permisos y operadores para añadir, quitar o establecer permisos específicos.
 
     Un ejemplo de notación simbólica es "chmod u+x archivo.txt", que añade el permiso de ejecución para el propietario del archivo. Otros operadores incluyen "+" para añadir permisos, "-" para quitar permisos y "=" para establecer permisos exactos.
 
-**Que hace chown?**
+### Que hace chown?
 
 - El comando "chown" se utiliza para cambiar el propietario y/o el grupo de un archivo o directorio. Esto permite asignar la propiedad de un archivo a un usuario específico y, opcionalmente, a un grupo específico.
 
     Ejemplo: "sudo chown usuario:grupo archivo.txt" cambia el propietario del archivo "archivo.txt" al usuario especificado y el grupo al grupo especificado.
 
-**Que es SetGID y Sticky bit?**
+### Que es SetGID y Sticky bit?
 - El bit SetGID (Set Group ID) es un permiso especial que se puede establecer en directorios. Cuando se establece el bit SetGID en un directorio, los archivos creados dentro de ese directorio heredarán automáticamente el grupo del directorio padre, en lugar del grupo del usuario que creó el archivo. Esto es útil para mantener la coherencia de los permisos de grupo en proyectos colaborativos.
 
     Ejemplo: "sudo chmod 2775 /srv/compartido" establece el bit SetGID en el directorio "/srv/compartido".
