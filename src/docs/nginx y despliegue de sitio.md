@@ -106,5 +106,5 @@ Lo siguiente que haremos sera construir nuestro sitio, hay que decirle a nginx q
 ** Recarga "http://localhost:8080", ahora deberia verse tu sitio servido desde tu propio Linux
 
 
-![Servidor Web](img/prueba%20del%20sitio%20desplegado%20con%20nginx.png)
+![Servidor Web](img/sitio_desplegado.png)
 
