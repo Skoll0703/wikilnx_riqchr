@@ -146,6 +146,7 @@ function App() {
       'gestor de paquetes',
       'nginx y despliegue de sitio',
       'licencias',
+      'bitacora de prompts',
     ]
 
     return Object.entries(markdownFiles)
