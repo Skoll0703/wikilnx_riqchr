@@ -145,6 +145,7 @@ function App() {
       'permisos especiales',
       'gestor de paquetes',
       'nginx y despliegue de sitio',
+      'licencias',
     ]
 
     return Object.entries(markdownFiles)
