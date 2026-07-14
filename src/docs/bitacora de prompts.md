@@ -16,3 +16,12 @@ Esta bitácora reúne algunos de los prompts utilizados durante el desarrollo de
 
 ## Observación
 Esta bitácora sirve como registro breve de las instrucciones que guiaron la construcción de la wiki y su organización.
+
+
+## Uso de IA
+** Las herramientas de IA que use en este trabajo fueron ChatGPT y GitHub Copilot, destaco mucho este ultimo ya que lo conoci hace poco y es que al estar integrado en Visual Studio Code no hace falta estar copiando y pegando nuestro codigo todo el rato por si salta algun error y no sabemos identificarlo, esta IA al siempre tener el contexto solo debemos preguntar cual es el error y nos lo dira automaticamente.
+ChatGPT lo use principalmente para que me diera explicaciones de que hacia cada comando y poder explicar de mejor manera en la IA.
+
+
+## Reflexion
+** Durante mi proceso en la creacion de esta wiki me senti motivado al ir aprendiendo nuevas cosas como por ejemplo las diferentes sintaxis que puede tener un markdawn, sobre aprender mas de Linux Server, que son algunas cosas que hace poco tiempo no tenia idea de su existensia. Por esas cosas es que mi proceso de trabajo fue agradable y motivante.
